@@ -16,6 +16,7 @@ void draw(){
     d[i].fall();
     d[i].show();
   }
+// just test
   
   
 }
