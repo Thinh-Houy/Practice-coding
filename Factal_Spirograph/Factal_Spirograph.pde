@@ -24,7 +24,7 @@ void setup() {
 }
 
 void draw() {
-  background(51);
+  background(51);  // backgroung color
 
   for (int i = 0; i < resolution; i++) {
     Orbit next = sun;
