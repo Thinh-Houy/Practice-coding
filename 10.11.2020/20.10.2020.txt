@@ -1,0 +1,13 @@
+20.10.2020
+
+Installation
+1. Visual Studio code
+	=>extention
+		- C/C++
+		- Code runner
+2. MinGW
+	=>install
+	=>set environment
+		->Computer	->Property		->Advanced System setting
+		->environment variable	->path	->edit
+
