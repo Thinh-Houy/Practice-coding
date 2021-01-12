@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC12"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-01-12 01:24:25 PM"/>
+        <attribute name="created" value="UEMxMjtERVNLVE9QLTdGNjUzVkM7MjAyMS0wMS0xMjswMToxNDo1NyBQTTsyNTM2"/>
+        <attribute name="edited" value="UEMxMjtERVNLVE9QLTdGNjUzVkM7MjAyMS0wMS0xMjswMToyNDoyNSBQTTsxOzI2NDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num, i, j" type="Integer" array="False" size=""/>
+            <output expression="&quot;This program user input a value of n and then the ouptut show the decrement from n to 1 in both row and column.&quot;" newline="True"/>
+            <input variable="num"/>
+            <if expression="num&gt;0">
+                <then>
+                    <for variable="i" start="0" end="num" direction="inc" step="1">
+                        <for variable="j" start="num-i" end="0" direction="dec" step="1">
+                            <output expression="j" newline="False"/>
+                            <output expression="&quot; &quot;" newline="False"/>
+                        </for>
+                        <output expression="&quot;\n&quot;" newline="True"/>
+                    </for>
+                </then>
+                <else>
+                    <output expression="&quot;Please enter the number that bigger than 0&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

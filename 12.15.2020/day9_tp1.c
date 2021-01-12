@@ -10,13 +10,13 @@ void main(){
     m = 1;
     fibo = 1;
     // printf("Fibo = %d ", fibo);
-    if(m<=25){
+    while(m<N)
         for(int i = 1; i <=N ; i++){
                 printf("%d ",fibo);
                 n = fibo + m;
                 fibo = m;
                 m = n;
             }
-    }   
+    }
     
 }
